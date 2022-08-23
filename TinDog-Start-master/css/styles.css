@@ -138,3 +138,29 @@ body {
 .pricing-col {
   padding: 3% 2%;
 }
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 22%;
+}
+
+#cta h3 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+}
+
+#cta button {
+  margin: 2% 2%;
+}
+#footer {
+  padding: 2% 5%;
+  text-align: center;
+  background-color: white;
+}
+#footer i {
+  margin: 1%;
+}
