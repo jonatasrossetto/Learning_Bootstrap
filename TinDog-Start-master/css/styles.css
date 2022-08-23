@@ -9,11 +9,12 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
   background-color: #ff4c68;
+  text-align: left;
 }
 
 #title h1 {
@@ -51,7 +52,9 @@ body {
 
 .title-img {
   width: 60%;
-  transform: rotate(30deg);
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 #features h3 {
@@ -79,6 +82,9 @@ body {
 #features {
   padding: 7% 15%;
   text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 /* Testimonials section */
